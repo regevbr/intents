@@ -10,6 +10,7 @@ def get_base_arg_parser() -> argparse.ArgumentParser:
         type=str,
         choices=[
             "add_language",
+            "merged_output",
             "parse",
             "sample_template",
             "sample",
