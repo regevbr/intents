@@ -4,6 +4,7 @@ intents:
     data:
       - sentences:
           - "סגור [את] [ה] <name>"
+          - "ס[י]גרי [את] [ה] <name>"
         slots:
           device_class:
             - "garage_door"
@@ -12,6 +13,7 @@ intents:
             - "shutter"
       - sentences:
           - "סגור [את] [ה] (תריסים) ב<area>"
+          - "ס[י]גרי [את] [ה] (תריסים) ב<area>"
         slots:
           device_class:
             - "blind"
@@ -19,6 +21,7 @@ intents:
             - "shutter"
       - sentences:
           - "סגור [את] [ה] <name> ב<area>"
+          - "ס[י]גרי [את] [ה] <name> ב<area>"
         slots:
           device_class:
             - "garage_door"

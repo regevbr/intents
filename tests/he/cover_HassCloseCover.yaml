@@ -2,13 +2,19 @@ language: "he"
 tests:
   - sentences:
       - "סגור את התריס"
+      - "סיגרי את התריס"
+      - "סגרי את התריס"
     intent:
       name: "HassCloseCover"
   - sentences:
       - "סגור את התריסים בסלון"
+      - "סגרי את התריסים בסלון"
+      - "סיגרי את התריסים בסלון"
     intent:
       name: "HassCloseCover"
   - sentences:
       - "סגור את הדלת בסלון"
+      - "סיגרי את הדלת בסלון"
+      - "סגרי את הדלת בסלון"
     intent:
       name: "HassCloseCover"

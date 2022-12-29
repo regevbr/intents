@@ -2,6 +2,7 @@ language: "he"
 tests:
   - sentences:
       - "כבה את המאוורר במטבח"
+      - "כבי את המאוורר במטבח"
     intent:
       name: "HassTurnOff"
       slots:
@@ -9,6 +10,7 @@ tests:
         domain: "fan"
   - sentences:
       - "כבה את המאווררים במטבח"
+      - "כבי את המאווררים במטבח"
     intent:
       name: "HassTurnOff"
       slots:

@@ -2,13 +2,19 @@ language: "he"
 tests:
   - sentences:
       - "פתח את התריס"
+      - "פתחי את התריס"
+      - "פיתחי את התריס"
     intent:
       name: "HassOpenCover"
   - sentences:
       - "פתח את התריסים בסלון"
+      - "פתחי את התריסים בסלון"
+      - "פיתחי את התריסים בסלון"
     intent:
       name: "HassOpenCover"
   - sentences:
       - "פתח את הדלת בסלון"
+      - "פתחי את הדלת בסלון"
+      - "פיתחי את הדלת בסלון"
     intent:
       name: "HassOpenCover"

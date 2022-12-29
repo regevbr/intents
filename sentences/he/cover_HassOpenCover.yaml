@@ -4,6 +4,7 @@ intents:
     data:
       - sentences:
           - "פתח [את] [ה] <name>"
+          - "פ[י]תחי [את] [ה] <name>"
         slots:
           device_class:
             - "garage_door"
@@ -12,6 +13,7 @@ intents:
             - "shutter"
       - sentences:
           - "פתח [את ה]תריסים ב<area>"
+          - "פ[י]תחי [את ה]תריסים ב<area>"
         slots:
           device_class:
             - "blind"
@@ -19,6 +21,7 @@ intents:
             - "shutter"
       - sentences:
           - "פתח [את] [ה] <name> ב<area>"
+          - "פ[י]תחי [את] [ה] <name> ב<area>"
         slots:
           device_class:
             - "garage_door"
